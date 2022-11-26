@@ -40,6 +40,49 @@ public class BinaryTree {
             System.out.println("Building tree with root value " + root.value);
             tree.insert(root, 30);
             tree.insert(root, 70);
+
+
+
+            System.out.println("\n");
+            Node root1 = new Node(30);
+            System.out.println("Building tree with root value " + root1.value);
+            System.out.println("Siblings");
+            tree.insert(root, 22);
+            tree.insert(root, 40);
+
+            System.out.println("\n");
+            Node root2 = new Node(70);
+            System.out.println("Building tree with root value " + root2.value);
+            tree.insert(root, 60);
+            tree.insert(root, 95);
+
+            System.out.println("\n");
+            Node root3 = new Node(22);
+            System.out.println("Building tree with root value " + root3.value);
+            System.out.println("Parent key");
+            tree.insert(root, 11);
+
+            System.out.println("\n");
+            Node root4 = new Node(11);
+            System.out.println("Building tree with root value " + root4.value);
+            System.out.println("Child value");
+            tree.insert(root, 3);
+            tree.insert(root, 16);
+
+            System.out.println("\n");
+            Node root5 = new Node(60);
+            System.out.println("Building tree with root value " + root5.value);
+            tree.insert(root, 65);
+
+            System.out.println("\n");
+            Node root6 = new Node(65);
+            System.out.println("Building tree with root value " + root6.value);
+            System.out.println("Leaf nodes");
+            tree.insert(root, 63);
+            tree.insert(root, 67);
+
         }
-    }
+}
+
+
 
